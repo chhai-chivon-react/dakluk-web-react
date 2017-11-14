@@ -1,18 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
+import Routes from './routes/index';
+export default () => <Routes />;
 
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import Login from "./components/Login";
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Header />
-        <Login />
-        <Footer />
-      </div>
-    );
-  }
-}
-
-export default App;

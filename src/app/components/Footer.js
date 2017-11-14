@@ -12,6 +12,7 @@ class FooterApp extends Component {
         </Header>
       </Segment>
     );
+    
   }
 }
 export default FooterApp;
